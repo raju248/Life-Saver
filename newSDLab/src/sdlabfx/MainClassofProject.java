@@ -23,10 +23,9 @@ public class MainClassofProject extends Application {
 
     public static void main(String[] args) {
         
-        BrowserPreferences.setChromiumVariable("GOOGLE_API_KEY", "AIzaSyBk84E22UvDE3FEU8uJaCXeaPq2JDdzuZY");
-        BrowserPreferences.setChromiumVariable("GOOGLE_DEFAULT_CLIENT_ID", "308176406924-qod3f16foc3drevmfhgp2q36ot3jq4mn.apps.googleusercontent.com");
-        BrowserPreferences.setChromiumVariable("GOOGLE_DEFAULT_CLIENT_SECRET", "9IFccHhzZ-VVwTfnRc6FFeER");
-
+       BrowserPreferences.setChromiumVariable("GOOGLE_API_KEY", "Your API Key");
+       BrowserPreferences.setChromiumVariable("GOOGLE_DEFAULT_CLIENT_ID", "Your Client ID");
+       BrowserPreferences.setChromiumVariable("GOOGLE_DEFAULT_CLIENT_SECRET", "Your Client Secret");
         launch(args);
     }
 
